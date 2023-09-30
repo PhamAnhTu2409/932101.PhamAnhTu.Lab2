@@ -1,0 +1,33 @@
+p{margin:0px;}
+
+.table {
+  display: table;
+}
+
+.cell1 {
+  display: table-cell;
+  width: 200px;
+  background: aqua;
+}
+
+.row1 {
+  display: table-cell;
+  background: bisque;
+  height: 80px;
+  width: 200px;
+  padding: 0 0 0 25px;
+}
+
+
+.cell2 {
+  display: table-cell;
+  background: darkgray;
+}
+footer {
+  width: 100%;
+  line-height: 400%;
+  background: limegreen;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

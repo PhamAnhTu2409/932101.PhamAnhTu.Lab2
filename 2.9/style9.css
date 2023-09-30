@@ -1,0 +1,14 @@
+
+.center {
+  height: 100%;
+  width:600px;
+  min-width:600px;
+  background:blue;
+  color:white;
+  margin: auto;
+}
+.image{
+  position:relative;
+  float:right;
+  padding: 0 0 5px 5px;
+}

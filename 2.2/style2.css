@@ -1,0 +1,45 @@
+* {
+
+  margin:0;
+  box-sizing: border-box;
+}
+#left {
+  width: 25%;
+  height: 100%;
+  background: #C8FC98;
+  padding:7px;
+}
+
+#center {
+  width: 75%;
+  height:auto;
+  padding:7px;
+}
+#right {
+  width: 200px;
+  background: #FDE95E;
+  padding:7px;
+  
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: #EAEAEA;
+  padding:10px;
+}
+footer {
+  width: 100%;
+  line-height: 200%;
+  text-align: center;
+  background: black;
+}
+
+i {
+  color: red;
+}
+a {
+  color: #FFFF80;
+}
+.main {
+display:flex;
+}

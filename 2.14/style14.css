@@ -1,0 +1,41 @@
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    display: flex;
+}
+
+.box1{
+    padding: 5px 0px 5px 0px;
+    min-width: 30%;
+    background-color: bisque;
+    height: fit-content;
+}
+
+.box2{
+    background-color: darkgray;
+}
+p {
+    margin: 0px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+.box{
+   flex-direction: column;
+}
+.box1{
+margin-top:20px
+}
+.box2
+{
+        margin: 20px 0px 20px 0px;
+        padding: 0px;
+}
+ul {
+        display: flex;
+        gap: 5px;
+        list-style: none;
+        margin: 0px;
+    }
+}
